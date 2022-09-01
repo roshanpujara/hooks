@@ -1,6 +1,7 @@
 import React from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Test from "./components/Test";
+import UseReducer from "./components/UseReducer";
 
 function App() {
   return (
@@ -10,7 +11,8 @@ function App() {
     //     <Route path="/test" element={<Test />} />
     //   </Routes>
     // </BrowserRouter>
-    <UseEffectCleanUp/>
+    //<UseEffectCleanUp/>
+    <UseReducer/>
   );
 }
 
